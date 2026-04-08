@@ -1,0 +1,24 @@
+/* Place your CSS styles in this file */
+body{background-color:aliceblue;}
+h1 {
+
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: larger;
+}
+
+p { 
+    color:darkblue;
+    text-align:left;
+    font-size: medium;  
+}
+#p2 { 
+    text-align: right;
+    font-size: medium;
+    color:darkslateblue; 
+}
+ul {list-style-type:none;}
+li {display: inline;}
