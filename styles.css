@@ -1,24 +1,22 @@
-/* Place your CSS styles in this file */
+/* Place your CSS styles in this file */ 
 body{background-color:aliceblue;}
 h1 {
 
     text-align: center;
-    font-family: "Times New Roman", sans-serif;
-    font-weight: normal;
-    font-weight: bold;
-    color: cornflowerblue;
-    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    color:darkblue;
+    font-size: 60px;
 }
 
 p { 
-    color:darkblue;
+    color:black;
     text-align:left;
-    font-size: medium;  
-}
-#p2 { 
-    text-align: right;
-    font-size: medium;
-    color:darkslateblue; 
-}
-ul {list-style-type:none;}
-li {display: inline;}
+    font-size:large;  
+} 
+ul {list-style-type:none;
+background-color: blanchedalmond;}
+li {display: inline;
+padding: 12px;
+margin: 10px
+;}
