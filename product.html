@@ -11,4 +11,160 @@
             <li>Product</li>
          <p> Haiii Cattalouis!! Kalian mau tahu zodiak kalian apa? Fun factnya gimana? Yuk kita coba link di bawah ini!  </p>
         </ul>
+     {
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPwZEy6i5p3U89dfdg2Zvbp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sikasikahay/ambalabu67/blob/main/Untitled2.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "0sMSgAs6nYSU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "inzxKZoLWUjP",
+        "outputId": "ed28b935-0f66-4007-f891-9f24a288d402"
+      },
+      "outputs": [
+        {
+          "metadata": {
+            "tags": null
+          },
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Catta Zodiak\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Catta Zodiak\")\n",
+        "month =input(\"bulan lahirmu: \").lower()\n",
+        "day =int(input(\"tangga lahirmu:\"))\n",
+        "\n",
+        "if month == \"januari\":\n",
+        "    if day<19:\n",
+        "      print(\"capricorn\")\n",
+        "      print(\"Zodiak paling ambisius dan pekerja keras. Mereka adalah tipe orang yang akan menertawakan leluconmu, tapi setelah itu kembali serius mengejar target.\")\n",
+        "    else:\n",
+        "      print(\"aquarius\")\n",
+        "      print(\"Pemikir jenius yang sering dianggap aneh karena ide-idenya terlalu maju. Mereka juga sangat menjunjung tinggi kemanusiaan.\")\n",
+        "elif month == \"februari\":\n",
+        "    if day<18:\n",
+        "      print(\"aquarius\")\n",
+        "      print(\"Pemikir jenius yang sering dianggap aneh karena ide-idenya terlalu maju. Mereka juga sangat menjunjung tinggi kemanusiaan.\")\n",
+        "    else:\n",
+        "      print(\"pisces\")\n",
+        "      print(\"Si tukang melamun yang paling kreatif. Mereka punya empati begitu tinggi sampai sering menyerap perasaan orang di sekitarnya.\")\n",
+        "elif month == \"maret\":\n",
+        "    if day<20:\n",
+        "      print(\"pisces\")\n",
+        "      print(\"Si tukang melamun yang paling kreatif. Mereka punya empati begitu tinggi sampai sering menyerap perasaan orang di sekitarnya.\")\n",
+        "    else:\n",
+        "      print(\"aries\")\n",
+        "      print(\"Zodiak paling kompetitif yang selalu menganggap hidup sebagai perlombaan. Mereka benci basa-basi dan lebih suka langsung ke intinya.\")\n",
+        "elif month == \"april\":\n",
+        "    if day<19:\n",
+        "      print(\"aries\")\n",
+        "      print(\"Zodiak paling kompetitif yang selalu menganggap hidup sebagai perlombaan. Mereka benci basa-basi dan lebih suka langsung ke intinya.\")\n",
+        "    else:\n",
+        "      print(\"taurus\")\n",
+        "      print(\"Si keras kepala yang paling tahan banting. Mereka sangat menghargai kenyamanan layaknya raja.\")\n",
+        "elif month == \"mei\":\n",
+        "    if day<20:\n",
+        "      print(\"taurus\")\n",
+        "      print(\"Si keras kepala yang paling tahan banting. Mereka sangat menghargai kenyamanan layaknya raja.\")\n",
+        "    else:\n",
+        "      print(\"gemini\")\n",
+        "      print(\"Jagoan komunikasi yang paling cerewet. Otaknya bergerak sangat cepat, membuat mereka sering melakukan dua hal sekaligus tanpa sadar.\")\n",
+        "elif month == \"juni\":\n",
+        "    if day<20:\n",
+        "      print(\"gemini\")\n",
+        "      print(\"Jagoan komunikasi yang paling cerewet. Otaknya bergerak sangat cepat, membuat mereka sering melakukan dua hal sekaligus tanpa sadar.\")\n",
+        "    else:\n",
+        "      print(\"cancer\")\n",
+        "      print(\"Terkenal sensitif, tapi mereka adalah ibu pelindung bagi teman-temannya. Mereka punya ingatan paling kuat untuk mengingat detail kebaikan orang lain\")\n",
+        "elif month == \"juli\":\n",
+        "    if day<22:\n",
+        "      print(\"cancer\")\n",
+        "      print(\"Terkenal sensitif, tapi mereka adalah ibu pelindung bagi teman-temannya. Mereka punya ingatan paling kuat untuk mengingat detail kebaikan orang lain.\")\n",
+        "    else:\n",
+        "      print(\"leo\")\n",
+        "      print(\"Terlahir sebagai pusat perhatian. Di balik gayanya yang glamor, mereka sebenarnya sangat setia kawan dan berhati hangat.\")\n",
+        "elif month == \"agustus\":\n",
+        "    if day<22:\n",
+        "      print(\"leo\")\n",
+        "      print(\"Terlahir sebagai pusat perhatian. Di balik gayanya yang glamor, mereka sebenarnya sangat setia kawan dan berhati hangat.\")\n",
+        "    else:\n",
+        "      print(\"virgo\")\n",
+        "      print(\"Si perfeksionis yang selalu punya solusi untuk masalah apapun. Mereka adalah detektif alami yang tahu jika ada yang disembunyikan.\")\n",
+        "elif month == \"september\":\n",
+        "    if day<22:\n",
+        "      print(\"virgo\")\n",
+        "      print(\"Si perfeksionis yang selalu punya solusi untuk masalah apapun. Mereka adalah detektif alami yang tahu jika ada yang disembunyikan.\")\n",
+        "    else:\n",
+        "      print(\"libra\")\n",
+        "      print(\"Sang pencinta damai yang anti konflik. Saking baiknya, mereka sering kesulitan untuk bilang tidak pada permintaan orang lain.\")\n",
+        "elif month == \"oktober\":\n",
+        "    if day<22:\n",
+        "      print(\"libra\")\n",
+        "      print(\"Sang pencinta damai yang anti konflik. Saking baiknya, mereka sering kesulitan untuk bilang tidak pada permintaan orang lain.\")\n",
+        "    else:\n",
+        "      print(\"scorpio\")\n",
+        "      print(\"Misterius dan dikenal pendendam. Tapi faktanya, mereka adalah teman yang paling berani pasang badan saat kamu dalam masalah.\")\n",
+        "elif month == \"november\":\n",
+        "    if day<21:\n",
+        "      print(\"scorpio\")\n",
+        "      print(\"Misterius dan dikenal pendendam. Tapi faktanya, mereka adalah teman yang paling berani pasang badan saat kamu dalam masalah.\")\n",
+        "    else:\n",
+        "      print(\"sagitarius\")\n",
+        "      print(\"Si petualang yang paling jujur ceplas-ceplos. Mereka adalah zodiak yang paling anti dikekang dan butuh kebebasan\")\n",
+        "\n",
+        "\n",
+        "elif month == \"desember\":\n",
+        "    if day<21:\n",
+        "      print(\"sagitarius\")\n",
+        "      print(\"Si petualang yang paling jujur (ceplas-ceplos). Mereka adalah zodiak yang paling anti dikekang dan butuh kebebasan.\")\n",
+        "    else:\n",
+        "      print(\"capricorn\")\n",
+        "      print(\"Zodiak paling ambisius dan pekerja keras. Mereka adalah tipe orang yang akan menertawakan leluconmu, tapi setelah itu kembali serius mengejar target.\")\n",
+        "else:\n",
+        "    print(\"Nama bulan tidak valid. Mohon masukkan nama bulan dengan benar.\")"
+      ]
+    }
+  ]
+}
     </body>
